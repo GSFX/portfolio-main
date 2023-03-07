@@ -34,7 +34,7 @@ function Header() {
           <NavLink to={'/projects'} onClick={handleNavClose}>Projects</NavLink>
         </li>
         <li>
-          <NavLink to={'/contacts'} onClick={handleNavClose}>Contacts</NavLink>
+          <NavLink to={'/contacts'} onClick={handleNavClose}>Contact</NavLink>
         </li>
       </ul>
     </nav>
