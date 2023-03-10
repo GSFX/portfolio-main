@@ -16,7 +16,7 @@
   width: 100%;
   position: relative;
   cursor: pointer;
-  background-color: #444442;
+  background-color: #333;
   margin-bottom: 20px;
 }
 
@@ -28,7 +28,7 @@
 
 .container-skills .card .face.face1 {
   position: relative;
-  background: #444442;
+  background: #333;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -37,7 +37,7 @@
 }
 
 .container-skills .card:hover .face.face1{
-  background: #444442;
+  background: #333;
   transform: translateY(0);
 }
 
@@ -64,7 +64,7 @@
 
 .container-skills .card .face.face2 {
   position: relative;
-  background: #444442;
+  background: #333;
   display: flex;
   justify-content: center;
   align-items: center;

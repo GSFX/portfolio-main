@@ -17,7 +17,7 @@ export default function Skills() {
           </div>
           <div class="face face2">
             <div class="content">
-              <a href="/">Open source ..</a>
+              <a href="https://reactjs.org/" target='_blank' rel='noreferrer'>Open source ..</a>
             </div>
           </div>
         </div>
@@ -30,7 +30,7 @@ export default function Skills() {
           </div>
           <div class="face face2">
             <div class="content">
-              <a href="/">Open source ..</a>
+              <a href="https://redux.js.org/" target='_blank' rel='noreferrer'>Open source ..</a>
             </div>
           </div>
         </div>
@@ -45,7 +45,7 @@ export default function Skills() {
           </div>
           <div class="face face2">
             <div class="content">
-              <a href="/">Open source ..</a>
+              <a href="https://axios-http.com/" target='_blank' rel='noreferrer'>Open source ..</a>
             </div>
           </div>
         </div>
@@ -60,7 +60,7 @@ export default function Skills() {
           </div>
           <div class="face face2">
             <div class="content">
-              <a href="/">Open source ..</a>
+              <a href="https://www.javascript.com/" target='_blank' rel='noreferrer'>Open source ..</a>
             </div>
           </div>
         </div>
@@ -75,7 +75,7 @@ export default function Skills() {
           </div>
           <div class="face face2">
             <div class="content">
-              <a href="/">Open source ..</a>
+              <a href="https://git-scm.com/" target='_blank' rel='noreferrer'>Open source ..</a>
             </div>
           </div>
         </div>
@@ -90,7 +90,7 @@ export default function Skills() {
           </div>
           <div class="face face2">
             <div class="content">
-              <a href="/">Open source ..</a>
+              <a href="https://expressjs.com/" target='_blank' rel='noreferrer'>Open source ..</a>
             </div>
           </div>
         </div>
@@ -105,7 +105,7 @@ export default function Skills() {
           </div>
           <div class="face face2">
             <div class="content">
-              <a href="/">Open source ..</a>
+              <a href="https://nodejs.org/en/" target='_blank' rel='noreferrer'>Open source ..</a>
             </div>
           </div>
         </div>
@@ -120,7 +120,7 @@ export default function Skills() {
           </div>
           <div class="face face2">
             <div class="content">
-              <a href="/">Open source ..</a>
+              <a href="https://react-redux.js.org/" target='_blank' rel='noreferrer'>Open source ..</a>
             </div>
           </div>
         </div>
@@ -135,7 +135,7 @@ export default function Skills() {
           </div>
           <div class="face face2">
             <div class="content">
-              <a href="/">Open source ..</a>
+              <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" target='_blank' rel='noreferrer'>Open source ..</a>
             </div>
           </div>
         </div>
@@ -148,7 +148,7 @@ export default function Skills() {
           </div>
           <div class="face face2">
             <div class="content">
-              <a href="/">Open source ..</a>
+              <a href="https://html.com/" target='_blank' rel='noreferrer'>Open source ..</a>
             </div>
           </div>
         </div>
@@ -161,7 +161,7 @@ export default function Skills() {
           </div>
           <div class="face face2">
             <div class="content">
-              <a href="/">Open source ..</a>
+              <a href="https://www.postman.com/" target='_blank' rel='noreferrer'>Open source ..</a>
             </div>
           </div>
         </div>
@@ -176,7 +176,7 @@ export default function Skills() {
           </div>
           <div class="face face2">
             <div class="content">
-              <a href="/">Open source ..</a>
+              <a href="https://www.mysql.com/" target='_blank' rel='noreferrer'>Open source ..</a>
             </div>
           </div>
         </div>
@@ -191,7 +191,7 @@ export default function Skills() {
           </div>
           <div class="face face2">
             <div class="content">
-              <a href="/">Open source ..</a>
+              <a href="https://en.wikipedia.org/wiki/CSS" target='_blank' rel='noreferrer'>Open source ..</a>
             </div>
           </div>
         </div>
@@ -206,7 +206,7 @@ export default function Skills() {
           </div>
           <div class="face face2">
             <div class="content">
-              <a href="/">Open source ..</a>
+              <a href="https://sass-lang.com/" target='_blank' rel='noreferrer'>Open source ..</a>
             </div>
           </div>
         </div>
@@ -221,7 +221,7 @@ export default function Skills() {
           </div>
           <div class="face face2">
             <div class="content">
-              <a href="/">Open source ..</a>
+              <a href="https://mui.com/" target='_blank' rel='noreferrer'>Open source ..</a>
             </div>
           </div>
         </div>
@@ -236,7 +236,7 @@ export default function Skills() {
           </div>
           <div class="face face2">
             <div class="content">
-              <a href="/">Open source ..</a>
+              <a href="https://getbootstrap.com/" target='_blank' rel='noreferrer'>Open source ..</a>
             </div>
           </div>
         </div>
@@ -251,7 +251,7 @@ export default function Skills() {
           </div>
           <div class="face face2">
             <div class="content">
-              <a href="/">Open source ..</a>
+              <a href="https://tailwindcss.com/" target='_blank' rel='noreferrer'>Open source ..</a>
             </div>
           </div>
         </div>
@@ -266,7 +266,7 @@ export default function Skills() {
           </div>
           <div class="face face2">
             <div class="content">
-              <a href="/">Open source ..</a>
+              <a href="https://insomnia.rest/" target='_blank' rel='noreferrer'>Open source ..</a>
             </div>
           </div>
         </div>
