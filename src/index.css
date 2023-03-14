@@ -2,7 +2,9 @@ body {
   -webkit-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  background-color: #333;
+  background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
+  background-size: cover;
+  background-attachment: fixed;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -23,15 +25,15 @@ code {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #777;
+  background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #444;
+  background: radial-gradient(ellipse at bottom, #374f6b 0%, #090A0F 100%);
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #222;
+  background: radial-gradient(ellipse at bottom, #4d6e94 0%, #090A0F 100%);
 }

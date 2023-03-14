@@ -1,49 +1,34 @@
-import React, { useEffect, useState } from 'react';
-import { NavLink } from 'react-router-dom';
-import './Main.scss';
+import React from 'react';
+import './Main.css';
 
-function Main() {
-  const text = ['Frontend Developer', 'React Developer'];
-  const [val, setVal] = useState('');
-  let [i, setI] = useState(1);
-  let [j, setJ] = useState(0);
-
-  useEffect(() => {
-    const index = setInterval(() => {
-      const a = text[j].slice(0, i + 1);
-      setVal(a);
-      setI(i++);
-      if (i > text[j].length) {
-        return;
-      }
-      if (i === text[j].length) {
-        setI(0);
-        setJ(++j);
-        console.log(j);
-        if (text.length === j) {
-          setJ(0);
-          setI(1);
-        }
-      }
-    }, Math.random() * 300);
-    return () => {
-      clearInterval(index);
-    };
-  });
-
-  return (
-    <>
-        <div className="MainBlockD">
-        <div id="CardMain"></div>
-          <div className="MainInfo">
-            <p className="HiThere">Hi there</p>
-            <h2>I'm Beaver</h2>
-            <label>{val}</label>
-            <NavLink to={'/about'}>about me ⏎</NavLink>
-          </div>
-        </div>
-    </>
-  );
+function generateRandomBoxShadow(n) {
+  let value = '';
+  for (let i = 0; i < n; i++) {
+    value += `${Math.floor(Math.random() * 2000)}px ${Math.floor(Math.random() * 2000)}px #FFF`;
+    if (i !== n - 1) {
+      value += ',';
+    }
+  }
+  return value;
 }
 
+
+function Main() {
+  const shadowsSmall = generateRandomBoxShadow(700);
+  const shadowsMedium = generateRandomBoxShadow(200);
+  const shadowsBig = generateRandomBoxShadow(100);
+
+  return (
+    <div className="container">
+      <div id="stars" style={{ boxShadow: shadowsSmall }}></div>
+      <div id="stars2" style={{ boxShadow: shadowsMedium }}></div>
+      <div id="stars3" style={{ boxShadow: shadowsBig }}></div>
+      <div id="title">
+        <span>Hi! I'm Beaver</span>
+        <br />
+        <span>Front-end Developer</span>
+      </div>
+    </div>
+  );
+}
 export default Main;

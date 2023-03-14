@@ -16,7 +16,6 @@
   width: 100%;
   position: relative;
   cursor: pointer;
-  background-color: #333;
   margin-bottom: 20px;
 }
 
@@ -28,7 +27,7 @@
 
 .container-skills .card .face.face1 {
   position: relative;
-  background: #333;
+  background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -37,7 +36,7 @@
 }
 
 .container-skills .card:hover .face.face1{
-  background: #333;
+  background: radial-gradient(ellipse at bottom, #374f6b 0%, #090A0F 100%);
   transform: translateY(0);
 }
 
@@ -64,7 +63,7 @@
 
 .container-skills .card .face.face2 {
   position: relative;
-  background: #333;
+  background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
   display: flex;
   justify-content: center;
   align-items: center;
