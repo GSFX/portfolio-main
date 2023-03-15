@@ -1,3 +1,4 @@
+/* Stars Property */
 #stars,
 #stars2,
 #stars3 {
@@ -18,10 +19,10 @@
   width: 3px;
   height: 3px;
 }
-
+/* Main Text */
 #title {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 0;
   right: 0;
   color: #fff;
@@ -34,12 +35,111 @@
   padding-left: 10px;
 }
 
-#title span {
-  background: -webkit-linear-gradient(white, #38495a);
+#title .HiThere, .ImBeaver, .Front {
+  background: -webkit-linear-gradient(white, gray);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
+.HiThere {
+  letter-spacing: 5px;
+  font-size: 35px;
+  font-weight: 400;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  margin-top: -65px;
+  padding-right: 25%;
+  font-family: 'lato', sans-serif;
+}
+.ImBeaver {
+  letter-spacing: 10px;
+  font-size: 55px;
+  position: absolute;
+  font-weight: 600;
+  top: 55%;
+  left: 0;
+  right: 0;
+  margin-top: -25px;
+  font-family: 'lato', sans-serif;
+}
+.Front {
+  letter-spacing: 5px;
+  position: absolute;
+  font-weight: 300;
+  top: 85%;
+  left: 0;
+  right: 0;
+  font-family: 'lato', sans-serif;
+}
+.about-me {
+  text-decoration: none;
+  color: #f0dc51;
+  font-size: 35px;
+  letter-spacing: -1px;
+  position: absolute;
+  top: 135%;
+  left: 20%;
+  right: 0;
+  font-family: 'lato', sans-serif;
+  cursor: pointer;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+.about-me:hover {
+  transform: translateX(2px);
+}
+/* Small Screen Text*/
+@media only screen and (max-width: 450px) {
+  .HiThere {
+    letter-spacing: 5px;
+    font-size: 30px;
+    font-weight: 400;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin-top: -65px;
+    padding-right: 25%;
+    font-family: 'lato', sans-serif;
+  }
+  .ImBeaver {
+    letter-spacing: 10px;
+    font-size: 45px;
+    position: absolute;
+    font-weight: 600;
+    top: 60%;
+    left: 0;
+    right: 0;
+    margin-top: -25px;
+    font-family: 'lato', sans-serif;
+  }
+  .Front {
+    letter-spacing: 5px;
+    font-size: 27px;
+    position: absolute;
+    font-weight: 400;
+    top: 105%;
+    left: 0;
+    right: 0;
+    font-family: 'lato', sans-serif;
+  }
+  .about-me {
+    text-decoration: none;
+    color: #f0dc51;
+    font-size: 32px;
+    letter-spacing: -1px;
+    font-weight: 300;
+    position: absolute;
+    top: 180%;
+    left: 20%;
+    right: 0;
+    font-family: 'lato', sans-serif;
+  }
+}
+
+/* Stars Animations */
 #stars {
   animation: animStar 50s linear infinite;
 }

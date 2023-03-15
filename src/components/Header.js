@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
-import './Header.css';
 import { NavLink } from 'react-router-dom';
+// Logo
+import beaverLogo from '../assets/beaverLogo.png';
+// Header CSS
+import './Header.css';
 
 function Header() {
   const [isNavOpen, setIsNavOpen] = useState(false);
@@ -16,7 +19,7 @@ function Header() {
   return (
     <nav className="nav-collapse" role="navigation">
       <div className="logo">
-        <img alt='logo' src="https://cdn.discordapp.com/attachments/1077968491111526510/1082387364858576946/2p.png" />
+        <img alt='bvr-Logo' src={beaverLogo} />
       </div>
       <div className={`hamburger ${isNavOpen ? 'toggle' : ''}`} onClick={handleNavToggle}>
         <div className="line1"></div>
@@ -34,7 +37,7 @@ function Header() {
           <NavLink to={'/projects'} onClick={handleNavClose}>Projects</NavLink>
         </li>
         <li>
-          <NavLink to={'/contacts'} onClick={handleNavClose}>Contact</NavLink>
+          <NavLink to={'/contact'} onClick={handleNavClose}>Contact</NavLink>
         </li>
       </ul>
     </nav>

@@ -1,0 +1,119 @@
+/* ___ About-MainBlock ___ */
+.About-MainBlock {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  min-height: 100vh;
+}
+/* ___ About-Container ___ */
+.About-Container {
+  width: 70%;
+  height: 100%;
+  margin: 120px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+@media screen and (max-width: 950px){
+  .About-Container {
+      flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px){
+  .About-Container {
+      flex-wrap: wrap;
+      width: 90%;
+  }
+}
+/* ___ About-GeneralInfo ___ */
+.About-GeneralInfo {
+  overflow-wrap: anywhere;
+  display: flex;
+  flex-direction: column;
+}
+.About-GeneralInfo p {
+  line-height: 1.3;
+  font-weight: 400;
+  color: snow;
+  font-family: 'lato', sans-serif;
+}
+@media screen and (max-width: 450px){
+  .About-GeneralInfo p {
+      margin: 0 auto;
+      flex-wrap: wrap;
+      width: 90%;
+      font-family: 'lato', sans-serif;
+      font-weight: 100;
+  }
+}
+.About-Objective-Title {
+  margin-bottom: 20px;
+  font-size: 40px;
+  letter-spacing: 5px;
+  line-height: 1.2;
+  font-weight: 100;
+  font-family: 'lato', sans-serif;
+}
+.About-Objective-Text {
+  margin: 0;
+  font-size: 23px;
+  letter-spacing: 1px;
+  line-height: 2;
+  font-weight: 300;
+}
+@media screen and (max-width: 450px){
+  .About-Objective-Title {
+    margin-bottom: 20px;
+    font-size: 35px;
+    letter-spacing: 5px;
+    line-height: 1.2;
+    font-weight: 100;
+    font-family: 'lato', sans-serif;
+  }
+}
+@media screen and (max-width: 450px){
+  .About-Objective-Text {
+    margin: 0;
+    font-size: 21px;
+    letter-spacing: 1px;
+    line-height: 2;
+    font-weight: 300;
+  }
+}
+/* ___ About-persInfo ___ */
+.About-persInfo {
+  margin-top: 2rem;
+}
+.About-persInfo p {
+  line-height: 1.3;
+  font-size: 20px;
+}
+.About-persInfo span {
+  width: 150px;
+  display: inline-block;
+  color: #c7b74f;
+  font-size: 16px;
+  font-weight: bold;
+}
+/* ___ Small Screen | About-persInfo ___ */
+@media screen and (max-width: 425px){
+  .About-persInfo span {
+      white-space: nowrap;
+      width: 125px;
+      font-size: 15px;
+  }
+  .About-persInfo p {
+      white-space: nowrap;
+      font-size: 15px;
+  }
+}
+@media screen and (max-width: 335px){
+  .About-persInfo span {
+      width: 90px;
+      font-size: 12px;
+  }
+  .About-persInfo p {
+      font-size: 12px;
+  }
+}

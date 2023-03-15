@@ -1,6 +1,8 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import './Main.css';
 
+// Animation for Stars
 function generateRandomBoxShadow(n) {
   let value = '';
   for (let i = 0; i < n; i++) {
@@ -24,9 +26,13 @@ function Main() {
       <div id="stars2" style={{ boxShadow: shadowsMedium }}></div>
       <div id="stars3" style={{ boxShadow: shadowsBig }}></div>
       <div id="title">
-        <span>Hi! I'm Beaver</span>
+        <span className='HiThere'>Hi There!</span>
         <br />
-        <span>Front-end Developer</span>
+        <span className='ImBeaver'>I'm Beaver</span>
+        <br />
+        <span className='Front'>Front-end Developer_</span>
+        <br />
+        <NavLink to={'/about'} ><span className='about-me'>about me ⏎</span></NavLink>
       </div>
     </div>
   );

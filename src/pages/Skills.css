@@ -74,6 +74,7 @@
   transform: translateY(-99px);
 }
 
+/* ____ Stying for small screens ____ */
 @media screen and (min-width: 768px) {
   .container-skills {
     max-width: 768px;
