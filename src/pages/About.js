@@ -20,7 +20,7 @@ export default function About() {
                 <div className='About-GeneralInfo'>
                     <div>
                         <h2 className='About-Objective-Title'>
-                        <CustomHr color="gray" />
+                        <CustomHr color="#08f" />
                             Objective:
                         </h2>
                         <p className='About-Objective-Text'>
@@ -28,7 +28,7 @@ export default function About() {
                         </p>
                     </div>
                     <div>
-                    <CustomHr color="gray" />
+                    <CustomHr color="#08f" />
                         <ul className='About-persInfo'>
                             <li><p><span>Based:</span>Russia</p></li>
                             <li><p><span>Real Name:</span>Arseniy</p></li>

@@ -1,0 +1,140 @@
+$primary: #08f;
+$gutter: 1.6rem;
+
+.Projects-Title {
+  position: absolute;
+  top: 19%;
+  left: 0;
+  right: 0;
+  color: #fff;
+  text-align: center;
+  font-family: 'lato', sans-serif;
+  font-weight: 300;
+  font-size: 50px;
+  letter-spacing: 10px;
+  margin-top: -60px;
+  padding-left: 10px;
+  background: -webkit-linear-gradient(white, rgb(216, 216, 216));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  @media screen and (max-width: 767px) {
+    position: absolute;
+    top: 22%;
+  }
+  @media screen and (min-width: 768px) {
+    position: absolute;
+    top: 17%;
+  }
+}
+
+.Projects-Card-Title {
+color: #f0dc51;
+margin-top: 0;
+line-height: 2;
+margin-bottom: .5rem;
+padding: 10px;
+&:after {
+position: absolute;
+display: block;
+content: '';
+height: 2px;
+width: 40px;
+background: $primary;
+}
+}
+
+.Projects-Card-Description {
+margin: .5rem 0;
+padding: 5px;
+color: rgb(172, 172, 172);
+}
+
+.Projects-Container {
+padding: 2rem;
+margin: 0 auto;
+max-width: 1200px;
+position: relative;
+z-index: 1;
+padding-top: 5%;
+
+@media screen and (max-width: 767px) {
+padding-top: 20%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+padding-top: 15%;
+}
+}
+
+.Projects-Grid-System {
+display: flex;
+flex-wrap: wrap;
+margin: -$gutter / 2;
+padding-top: 10%;
+
+@media screen and (max-width: 767px) {
+padding-top: 35%;
+margin: -$gutter / 4;
+}
+}
+
+.Projects-Card-Block {
+width: calc(33.3% - #{$gutter});
+margin: $gutter / 2;
+background: radial-gradient(ellipse at bottom, #1B2735 0%, #212436 100%);
+overflow: hidden;
+border-radius: .25rem;
+box-shadow:
+0 1px 5px rgba(#000, .05),
+0 2px 15px rgba(#000, .05);
+transition: box-shadow 300ms;
+
+&:hover {
+box-shadow:
+0 2px 5px rgba(#000, .05),
+0 5px 15px rgba(#000, .05);
+}
+
+&--image {
+position: relative;
+width: 100%;
+padding-bottom: 60%;
+overflow: hidden;
+
+img {
+  position: absolute;
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 767px) {
+  width: 40%;
+  min-width: 100px;
+  padding-bottom: 30%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  width: 35%;
+  min-width: 120px;
+  padding-bottom: 40%;
+}
+}
+
+&--content {
+font-size: .9rem;
+
+@media screen and (max-width: 767px) {
+  font-size: .8rem;
+}
+}
+
+@media screen and (max-width: 767px) {
+width: calc(100% - #{$gutter / 4});
+margin: $gutter / 4;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  width: calc(50% - #{$gutter});
+  margin: $gutter / 2;
+  }
+}

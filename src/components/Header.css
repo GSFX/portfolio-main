@@ -46,7 +46,7 @@ nav{
   letter-spacing: 4px;
 }
 .nav-links li a:hover {
-  color: #61DAFB;
+  color: #08f;
 }
 
 .nav-links li {
@@ -57,7 +57,7 @@ nav{
   display: block;
   height: 3px;
   width: 0%;
-  background-color: #61DAFB;
+  background-color: #08f;
   position: absolute;
   transition: all ease-in-out 250ms;
   margin: 0 0 0 10%;
